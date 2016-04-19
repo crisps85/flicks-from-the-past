@@ -1,0 +1,1117 @@
+/*
+flicksfromthepast Bootstrap Sass Theme
+Author: Christine Wong
+Ver: 0.0.1
+*/
+/* BASE - styles, variables, mixins, etc */
+/* line 3, ../scss/base/_base.scss */
+.main {
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+}
+
+/* line 9, ../scss/base/_base.scss */
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(../img/preloader_5.gif) center no-repeat white;
+}
+
+/* line 20, ../scss/base/_base.scss */
+body {
+  max-width: 1000px;
+  margin: 0 auto !important;
+  display: block;
+  position: relative;
+}
+
+/* MODULES - Individual site components */
+/* line 19, ../scss/modules/_typography.scss */
+.title_slide {
+  font-size: 3rem;
+  font-family: "Cabin Sketch", cursive;
+  padding: 1rem;
+}
+
+/* line 24, ../scss/modules/_typography.scss */
+.title_slide h1 {
+  font-weight: 700;
+}
+
+/* line 28, ../scss/modules/_typography.scss */
+.title_h1 {
+  color: white;
+}
+
+/* line 32, ../scss/modules/_typography.scss */
+.best_sellers h1 {
+  margin-top: 2rem;
+  background: rgba(245, 245, 245, 0.39);
+  color: rgba(0, 0, 0, 0.38);
+  text-align: center;
+  font-family: "Cabin Sketch", cursive;
+  padding: 1rem 0;
+  font-size: 5rem;
+}
+
+/* line 41, ../scss/modules/_typography.scss */
+.title h4 {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  margin-bottom: 4rem;
+}
+
+/* line 47, ../scss/modules/_typography.scss */
+.best_sellers h3 {
+  font-weight: 600;
+}
+
+/* line 51, ../scss/modules/_typography.scss */
+.page3 h4 {
+  text-transform: uppercase;
+}
+
+/* line 54, ../scss/modules/_typography.scss */
+article p {
+  font-size: 1.3rem;
+}
+
+/* line 57, ../scss/modules/_typography.scss */
+article {
+  text-align: justify;
+}
+
+/* line 61, ../scss/modules/_typography.scss */
+.fa-facebook-official:hover {
+  color: #324c8d;
+}
+
+/* line 65, ../scss/modules/_typography.scss */
+.fa-twitter:hover {
+  color: #058df1;
+}
+
+/* line 68, ../scss/modules/_typography.scss */
+.fa-youtube:hover {
+  color: #d21a1d;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 73, ../scss/modules/_typography.scss */
+  .title_slide {
+    font-size: 1.5rem;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+/* line 1, ../scss/modules/_buttons.scss */
+.navbar-toggle {
+  background-color: black !important;
+  border: none;
+}
+
+/* line 6, ../scss/modules/_buttons.scss */
+.navbar-toggle:hover {
+  background-color: #aa000c !important;
+}
+
+/* line 1, ../scss/modules/_sections.scss */
+.item img {
+  margin: auto;
+  z-index: 5;
+  width: 100%;
+}
+
+/* line 8, ../scss/modules/_sections.scss */
+.carousel-inner {
+  max-width: 100%;
+  height: 80vh;
+  margin-top: 5rem;
+}
+
+/* line 13, ../scss/modules/_sections.scss */
+.carousel_1 {
+  position: relative;
+  width: 95%;
+  margin: auto;
+}
+
+/* line 18, ../scss/modules/_sections.scss */
+.carousel-caption {
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* line 25, ../scss/modules/_sections.scss */
+.caption {
+  width: 30%;
+  margin-top: 16%;
+  float: right;
+  margin-right: 5%;
+  padding: 0.7rem;
+  text-align: left;
+}
+
+/* line 33, ../scss/modules/_sections.scss */
+.caption_p {
+  color: white;
+  padding: 0;
+}
+
+/* line 38, ../scss/modules/_sections.scss */
+.caption .more {
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  float: none;
+}
+
+/* line 46, ../scss/modules/_sections.scss */
+.title_slide {
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 15%;
+}
+
+/* line 50, ../scss/modules/_sections.scss */
+#background {
+  width: 100%;
+}
+
+/* line 55, ../scss/modules/_sections.scss */
+.page2 h3 {
+  padding-bottom: 4rem;
+}
+
+/* line 60, ../scss/modules/_sections.scss */
+#logoParade, #logoParadeTwo, #logoParadeThree {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+/* line 65, ../scss/modules/_sections.scss */
+div.scrollableArea a {
+  display: block;
+  padding-right: 25px;
+  float: left;
+}
+
+/* line 70, ../scss/modules/_sections.scss */
+.scrollableArea a img {
+  max-height: 200px;
+}
+
+/* line 74, ../scss/modules/_sections.scss */
+#logoParade {
+  margin-bottom: 5rem;
+}
+
+/* line 78, ../scss/modules/_sections.scss */
+.index_main {
+  box-shadow: 0px 2px 10px;
+}
+
+/* line 81, ../scss/modules/_sections.scss */
+.page2 h1 {
+  box-shadow: 0px 2px 10px;
+}
+
+/* line 85, ../scss/modules/_sections.scss */
+.latest_reviews, .reviews_main {
+  background: rgba(245, 245, 245, 0.39);
+  color: black;
+  padding: 0rem 5rem 0 5rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 93, ../scss/modules/_sections.scss */
+.latest_reviews:nth-of-type(1) {
+  padding-top: 4rem;
+}
+
+/* line 96, ../scss/modules/_sections.scss */
+.latest_reviews h2, .reviews_articles h2, .features_articles h2 {
+  border-bottom: 1px solid #9d9fa3;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+/* line 103, ../scss/modules/_sections.scss */
+.reviews_articles {
+  padding-left: 2rem;
+}
+
+/* line 106, ../scss/modules/_sections.scss */
+.features_articles h2 {
+  margin-right: 2rem;
+}
+
+/* line 110, ../scss/modules/_sections.scss */
+article:nth-child(1) {
+  width: 45%;
+  overflow: hidden;
+  float: left;
+  max-height: none;
+}
+
+/* line 118, ../scss/modules/_sections.scss */
+article img {
+  width: 50%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-right: 2px solid #64c2b0;
+  float: left;
+  margin: 0 1.5rem 1rem 0;
+}
+
+/* line 126, ../scss/modules/_sections.scss */
+.reviews {
+  display: block;
+}
+
+/* line 129, ../scss/modules/_sections.scss */
+article {
+  width: 50%;
+  float: right;
+  overflow: hidden;
+}
+
+/* line 136, ../scss/modules/_sections.scss */
+.articles a, .quarter_width a {
+  text-decoration: none;
+  display: block;
+  color: #9d9fa3;
+}
+
+/* line 142, ../scss/modules/_sections.scss */
+.chasing_amy img, .quarter_width img {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom: 2px solid #64c2b0;
+  width: 100%;
+  border-right: none;
+  border-bottom-left-radius: 0;
+}
+
+/* line 150, ../scss/modules/_sections.scss */
+.quarter_width img {
+  height: 160px;
+}
+
+/* line 153, ../scss/modules/_sections.scss */
+.chasing_amy img {
+  height: 100%;
+}
+
+/* line 157, ../scss/modules/_sections.scss */
+.quarter_width {
+  width: 30%;
+  margin-right: 3%;
+  margin-bottom: 2rem;
+  height: 350px;
+  overflow: hidden;
+}
+
+/* line 165, ../scss/modules/_sections.scss */
+.quarter_width:nth-child(3n+0) {
+  margin-right: 3%;
+}
+
+/* line 170, ../scss/modules/_sections.scss */
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  text-overflow: -o-ellipsis-lastline;
+}
+
+/* line 178, ../scss/modules/_sections.scss */
+.big_image_left {
+  float: left;
+  padding-bottom: 2rem;
+}
+
+/* line 184, ../scss/modules/_sections.scss */
+.big_image_right {
+  float: right;
+}
+
+/* line 187, ../scss/modules/_sections.scss */
+article:hover a h4 {
+  color: #e61277;
+}
+
+/* line 191, ../scss/modules/_sections.scss */
+.tron {
+  width: 100%;
+}
+
+/* line 195, ../scss/modules/_sections.scss */
+.tron img {
+  width: 45%;
+  height: 160px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom: none;
+  border-right: 2px solid #64c2b0;
+  margin-right: 3rem;
+}
+
+/* line 205, ../scss/modules/_sections.scss */
+.tron h4 {
+  padding-top: 2rem;
+}
+
+/* line 209, ../scss/modules/_sections.scss */
+.clearfix {
+  clear: both;
+}
+
+/* line 213, ../scss/modules/_sections.scss */
+.latest_features {
+  text-align: justify;
+  padding-right: 3.5%;
+}
+
+/* line 218, ../scss/modules/_sections.scss */
+.more {
+  float: right;
+  border: 1px solid #9d9fa3;
+  padding: 1rem;
+  transition: background-color 0.5s ease;
+}
+
+/* line 224, ../scss/modules/_sections.scss */
+.more a {
+  color: #9d9fa3;
+}
+
+/* line 227, ../scss/modules/_sections.scss */
+.more:hover {
+  background: #e61277;
+  border: 1px solid white;
+}
+
+/* line 232, ../scss/modules/_sections.scss */
+.more:hover a {
+  color: white;
+}
+
+/* line 236, ../scss/modules/_sections.scss */
+.features_articles article {
+  float: left;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 241, ../scss/modules/_sections.scss */
+  article {
+    width: 100% !important;
+  }
+
+  /* line 244, ../scss/modules/_sections.scss */
+  .quarter_width img {
+    height: 10%;
+    width: 50%;
+  }
+
+  /* line 245, ../scss/modules/_sections.scss */
+  .quarter_width {
+    height: 200px;
+  }
+
+  /* line 246, ../scss/modules/_sections.scss */
+  .advertdvds {
+    display: none;
+  }
+
+  /* line 247, ../scss/modules/_sections.scss */
+  .reviews_articles {
+    width: 100% !important;
+  }
+}
+/* line 251, ../scss/modules/_sections.scss */
+.info {
+  margin-top: 4rem;
+  float: left;
+  width: 100%;
+  background: white;
+  height: 315px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px #888888;
+}
+
+/* line 261, ../scss/modules/_sections.scss */
+.info:first-of-type {
+  margin-bottom: 4rem;
+}
+
+/* line 264, ../scss/modules/_sections.scss */
+.page_container {
+  background: rgba(245, 245, 245, 0.39);
+  width: 100%;
+  float: left;
+  padding: 0 2rem;
+  background: rgba(245, 245, 245, 0.39);
+}
+
+/* line 272, ../scss/modules/_sections.scss */
+.title {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  margin: 0;
+  padding: 5rem 4rem;
+}
+
+/* line 279, ../scss/modules/_sections.scss */
+.title_side {
+  display: inline-block;
+  float: left;
+  width: 70%;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* line 287, ../scss/modules/_sections.scss */
+.trailer {
+  width: 101%;
+}
+
+/* line 290, ../scss/modules/_sections.scss */
+.about {
+  float: left;
+  width: 72%;
+  margin-bottom: 4rem;
+}
+
+/* line 295, ../scss/modules/_sections.scss */
+.adverts {
+  width: 25%;
+  float: right;
+}
+
+/* line 299, ../scss/modules/_sections.scss */
+.information_header_font {
+  text-transform: uppercase;
+}
+
+/* line 302, ../scss/modules/_sections.scss */
+.full_article {
+  float: none;
+  width: 100%;
+  background: white;
+  padding: 1.5rem;
+  box-shadow: 0px 1px 10px #888888;
+  text-align: initial;
+}
+
+/* line 310, ../scss/modules/_sections.scss */
+.expanded {
+  color: black !important;
+}
+
+/* line 314, ../scss/modules/_sections.scss */
+.expanded:hover,
+a:focus {
+  text-decoration: none !important;
+}
+
+/* line 318, ../scss/modules/_sections.scss */
+.subject {
+  font-weight: 900;
+  color: rgba(41, 41, 41, 0.39);
+  float: left;
+  width: 20%;
+}
+
+/* line 324, ../scss/modules/_sections.scss */
+.author_details_expanded {
+  padding-bottom: 1rem;
+}
+
+/* line 327, ../scss/modules/_sections.scss */
+.author_details_expanded:before {
+  background-color: rgba(194, 194, 194, 0.39);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: bottom;
+  vertical-align: top;
+  width: 98%;
+}
+
+/* line 336, ../scss/modules/_sections.scss */
+.author p {
+  clear: both;
+  font-size: 1.5rem;
+}
+
+/* line 340, ../scss/modules/_sections.scss */
+.amazon_adverts_main_container {
+  background: white;
+  box-shadow: 0px 1px 10px #888888;
+  float: left;
+}
+
+/* line 346, ../scss/modules/_sections.scss */
+.advert_1 {
+  width: 47%;
+  float: left;
+  margin: 2% 2% 2% 0;
+  overflow: hidden;
+  font-size: 1.1rem;
+  max-height: 200px;
+}
+
+/* line 354, ../scss/modules/_sections.scss */
+.advert_1:nth-child(odd) {
+  margin-left: 2%;
+}
+
+/* line 358, ../scss/modules/_sections.scss */
+.advert_1 img {
+  width: 100%;
+  max-height: 150px;
+}
+
+/* line 362, ../scss/modules/_sections.scss */
+.dvd_title {
+  margin: 0;
+}
+
+/* line 365, ../scss/modules/_sections.scss */
+.price {
+  margin: 0;
+}
+
+/* line 369, ../scss/modules/_sections.scss */
+.full_article p {
+  text-align: justify;
+}
+
+/* line 373, ../scss/modules/_sections.scss */
+.comments {
+  width: 72%;
+  clear: both;
+  margin-bottom: 4rem;
+  float: left;
+}
+
+/* line 379, ../scss/modules/_sections.scss */
+.sort_reviews {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* line 383, ../scss/modules/_sections.scss */
+.comment_button {
+  margin: 1rem;
+  box-shadow: 1px 5px 10px #888888;
+  border-radius: 0;
+  background-color: #e61277;
+  border-color: #e61277;
+  color: white;
+  float: right;
+}
+
+/* line 393, ../scss/modules/_sections.scss */
+.comment_button:hover {
+  background-color: #e61277;
+  border: 0;
+}
+
+/* line 397, ../scss/modules/_sections.scss */
+.btn-primary:focus, .btn-primary.focus {
+  background-color: #e61277;
+}
+
+/* line 403, ../scss/modules/_sections.scss */
+select:not([multiple]) {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-position: right 50%;
+  background-repeat: no-repeat;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDZFNDEwNjlGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDZFNDEwNkFGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NkU0MTA2N0Y3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0NkU0MTA2OEY3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuGsgwQAAAA5SURBVHjaYvz//z8DOYCJgUxAf42MQIzTk0D/M+KzkRGPoQSdykiKJrBGpOhgJFYTWNEIiEeAAAMAzNENEOH+do8AAAAASUVORK5CYII=);
+  padding: .5em;
+  padding-right: 1.5em;
+}
+
+/* line 412, ../scss/modules/_sections.scss */
+#sort_by {
+  border-radius: 0;
+}
+
+/* line 415, ../scss/modules/_sections.scss */
+.sort label {
+  font-weight: 500;
+  padding-right: 5%;
+  color: rgba(0, 0, 0, 0.39);
+}
+
+/* line 421, ../scss/modules/_sections.scss */
+.comments_sub_container {
+  box-shadow: 0px 1px 10px #888888;
+  padding: 1.5rem;
+  float: left;
+}
+
+/* line 427, ../scss/modules/_sections.scss */
+.modal-content {
+  border-radius: 0;
+}
+
+/* line 430, ../scss/modules/_sections.scss */
+.movie_name {
+  display: block;
+  font-size: 2.5rem;
+}
+
+/* line 435, ../scss/modules/_sections.scss */
+.modal-body img {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+/* line 440, ../scss/modules/_sections.scss */
+#comment {
+  width: 100%;
+  border-color: rgba(194, 194, 194, 0.39);
+}
+
+/* line 445, ../scss/modules/_sections.scss */
+.submit_comment {
+  border: 0;
+  padding: 1rem;
+  background: #e61277;
+  color: white;
+  box-shadow: 0px 1px 10px #888888;
+}
+
+/* line 448, ../scss/modules/_sections.scss */
+.close_modal {
+  border-radius: 0;
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+/* line 454, ../scss/modules/_sections.scss */
+.submit_comment:hover {
+  background: #ce106b;
+}
+
+/* line 458, ../scss/modules/_sections.scss */
+.social {
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+/* line 462, ../scss/modules/_sections.scss */
+.social button {
+  border: 0;
+  background: transparent;
+  color: rgba(0, 0, 0, 0.39);
+}
+
+/* line 468, ../scss/modules/_sections.scss */
+.social i {
+  padding-right: 0.5rem;
+}
+
+/* line 472, ../scss/modules/_sections.scss */
+.social:before {
+  background-color: rgba(194, 194, 194, 0.39);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: bottom;
+  vertical-align: top;
+  width: 98%;
+}
+
+/* line 482, ../scss/modules/_sections.scss */
+.social:after {
+  background-color: rgba(194, 194, 194, 0.39);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: bottom;
+  vertical-align: bottom;
+  width: 98%;
+}
+
+/* line 492, ../scss/modules/_sections.scss */
+.post {
+  width: 100%;
+}
+
+/* line 496, ../scss/modules/_sections.scss */
+.higher {
+  margin-bottom: 4rem !important;
+}
+
+/* line 500, ../scss/modules/_sections.scss */
+.display {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  /* line 505, ../scss/modules/_sections.scss */
+  .adverts {
+    display: none;
+  }
+
+  /* line 506, ../scss/modules/_sections.scss */
+  .about, .comments {
+    width: 100%;
+  }
+
+  /* line 507, ../scss/modules/_sections.scss */
+  .title {
+    padding: 9rem 2rem;
+    width: 20%;
+    font-size: 1.2rem;
+  }
+
+  /* line 510, ../scss/modules/_sections.scss */
+  .title {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  /* line 511, ../scss/modules/_sections.scss */
+  .title_side {
+    width: 100%;
+  }
+
+  /* line 512, ../scss/modules/_sections.scss */
+  .features_articles h2 {
+    margin-right: 0rem;
+  }
+
+  /* line 513, ../scss/modules/_sections.scss */
+  .features_articles {
+    width: 100% !important;
+  }
+
+  /* line 514, ../scss/modules/_sections.scss */
+  .dropdown-menu {
+    font-size: 1rem;
+  }
+
+  /* line 515, ../scss/modules/_sections.scss */
+  .dropdown-menu li {
+    padding: 2px 20px;
+  }
+
+  /* line 516, ../scss/modules/_sections.scss */
+  .features li {
+    width: 25rem !important;
+    overflow: hidden;
+  }
+
+  /* line 517, ../scss/modules/_sections.scss */
+  .features .dropdown-menu {
+    left: -130%;
+    width: 40rem;
+    width: 27rem;
+  }
+
+  /* line 518, ../scss/modules/_sections.scss */
+  .reviews_drop .dropdown-menu {
+    left: -50%;
+    width: 31rem;
+  }
+
+  /* line 519, ../scss/modules/_sections.scss */
+  .reviews_drop li {
+    width: 15rem !important;
+    overflow: hidden;
+  }
+
+  /* line 520, ../scss/modules/_sections.scss */
+  .dropdown-menu > li > a {
+    padding: 0;
+  }
+
+  /* line 521, ../scss/modules/_sections.scss */
+  .subject {
+    width: 30%;
+  }
+
+  /* line 522, ../scss/modules/_sections.scss */
+  .caption {
+    margin-top: 12%;
+    width: 45%;
+  }
+}
+@media (max-width: 320px) {
+  /* line 527, ../scss/modules/_sections.scss */
+  .caption h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  /* line 528, ../scss/modules/_sections.scss */
+  .caption_p {
+    display: none;
+  }
+
+  /* line 529, ../scss/modules/_sections.scss */
+  .caption {
+    margin-top: 10%;
+    margin-right: 0;
+  }
+
+  /* line 530, ../scss/modules/_sections.scss */
+  .shrink .navbar-brand {
+    font-size: 1.8rem !important;
+  }
+}
+@media (max-width: 480px) {
+  /* line 534, ../scss/modules/_sections.scss */
+  .caption {
+    width: 45%;
+    margin-top: 4%;
+    margin-right: 0;
+  }
+
+  /* line 535, ../scss/modules/_sections.scss */
+  .caption p {
+    font-size: 1rem;
+  }
+
+  /* line 536, ../scss/modules/_sections.scss */
+  .caption h1 {
+    font-size: 1.5rem;
+  }
+
+  /* line 537, ../scss/modules/_sections.scss */
+  .caption .more {
+    padding: 0.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Styles */
+  /* line 541, ../scss/modules/_sections.scss */
+  .form-control {
+    font-size: 10px;
+    padding: 3px 8px;
+  }
+
+  /* line 542, ../scss/modules/_sections.scss */
+  .navbar-form {
+    padding: 0;
+    margin: 5px;
+  }
+
+  /* line 543, ../scss/modules/_sections.scss */
+  .shrink .navbar-brand {
+    font-size: 1.7rem !important;
+  }
+
+  /* line 544, ../scss/modules/_sections.scss */
+  .caption {
+    margin-top: 12%;
+    width: 35%;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* line 550, ../scss/modules/_sections.scss */
+  .navbar li {
+    font-size: 1.3rem !important;
+  }
+
+  /* line 551, ../scss/modules/_sections.scss */
+  .shrink .navbar-brand {
+    font-size: 2rem !important;
+  }
+}
+/* Large devices (large desktops, 1200px and up) */
+/* LAYOUTS - Page laout styles */
+/* line 1, ../scss/layouts/_nav.scss */
+.navbar-sub li {
+  padding-bottom: 1rem;
+}
+
+/* line 4, ../scss/layouts/_nav.scss */
+.navbar {
+  margin-bottom: 0;
+}
+
+/* line 7, ../scss/layouts/_nav.scss */
+.navbar-inverse {
+  border-radius: 0;
+  background-color: black;
+  width: 100%;
+  border-color: none;
+  z-index: 15;
+  transition: font-size 1s, position 1s, background-color 1s, font-weight 1s;
+}
+
+/* line 16, ../scss/layouts/_nav.scss */
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: black;
+}
+
+/* line 19, ../scss/layouts/_nav.scss */
+.shrink {
+  font-weight: 700;
+  position: fixed;
+  background-color: white;
+  color: black;
+  left: 0;
+}
+
+/* line 30, ../scss/layouts/_nav.scss */
+.shrink .active > a,
+.shrink .active > a,
+.shrink .active > a:focus {
+  background: rgba(250, 250, 250, 0) !important;
+  color: black !important;
+}
+
+/* line 40, ../scss/layouts/_nav.scss */
+.reviews_dropdown .active > a,
+.reviews_dropdown .active > a,
+.reviews_dropdown .active > a:focus,
+.shrink .reviews_dropdown .active > a,
+.shrink .reviews_dropdown .active > a,
+.shrink .reviews_dropdown .active > a:focus {
+  background: rgba(250, 250, 250, 0) !important;
+  color: white !important;
+}
+
+/* line 45, ../scss/layouts/_nav.scss */
+#navbar li {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+/* line 49, ../scss/layouts/_nav.scss */
+.shrink a {
+  color: #9d9fa3 !important;
+}
+
+/* line 52, ../scss/layouts/_nav.scss */
+.shrink .navbar-brand {
+  font-size: 2rem;
+}
+
+/* line 55, ../scss/layouts/_nav.scss */
+.shrink a:hover {
+  color: black !important;
+}
+
+/* line 58, ../scss/layouts/_nav.scss */
+.navbar-inverse {
+  border: none !important;
+}
+
+/* line 61, ../scss/layouts/_nav.scss */
+.shrink .reviews_dropdown a:hover {
+  color: white !important;
+}
+
+/* line 64, ../scss/layouts/_nav.scss */
+.shrink .black a:hover {
+  color: black !important;
+}
+
+/* line 68, ../scss/layouts/_nav.scss */
+.shrink .reviews_dropdown a {
+  color: #9d9fa3 !important;
+}
+
+/* line 72, ../scss/layouts/_nav.scss */
+.reviews_dropdown {
+  list-style: none;
+  background: rgba(51, 51, 51, 0.91);
+  padding: 1rem 3rem;
+}
+
+/* line 77, ../scss/layouts/_nav.scss */
+.reviews_dropdown a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #9d9fa3;
+}
+
+/* line 82, ../scss/layouts/_nav.scss */
+.reviews_dropdown a:hover {
+  color: white;
+}
+
+/* line 85, ../scss/layouts/_nav.scss */
+.new_collumn {
+  clear: both;
+}
+
+/* line 89, ../scss/layouts/_nav.scss */
+.dropdown-menu {
+  width: 90rem;
+}
+
+/* line 92, ../scss/layouts/_nav.scss */
+.dropdown-menu li {
+  float: left;
+  width: 29rem;
+}
+
+/* line 97, ../scss/layouts/_nav.scss */
+.features li {
+  width: 44rem;
+}
+
+/* line 103, ../scss/layouts/_nav.scss */
+.container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 10px 20px;
+  border-bottom: 1px solid black;
+}
+
+/* line 1, ../scss/layouts/_header.scss */
+.index_header {
+  height: 100vh;
+  min-width: 100%;
+  left: 0;
+  color: white;
+  background-color: black;
+  overflow: hidden;
+}
+
+/* line 10, ../scss/layouts/_header.scss */
+header p {
+  color: black;
+  padding-top: 5rem;
+}
+
+/* line 1, ../scss/layouts/_footer.scss */
+footer span {
+  font-family: 'alexis';
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+/* line 6, ../scss/layouts/_footer.scss */
+footer {
+  float: right;
+  padding: 1.4rem 3rem 0 0;
+  clear: both;
+}
